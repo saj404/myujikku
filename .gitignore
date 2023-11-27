@@ -2,3 +2,5 @@
 /node_modules
 #specifications
 /specs
+#environment
+/config.json
