@@ -17,8 +17,9 @@ module.exports = {
         const player = useMainPlayer();
         let queue = player.nodes.get(interaction.guildId);
         const voiceChannel = interaction.member.voice.channel;
-        const username = interaction.member.nickname != null 
-            ? interaction.member.nickname : interaction.user.username;
+        const username = interaction.member.nickname != null
+            ? interaction.member.nickname : interaction.user.globalName != null
+            ? interaction.user.globalName : interaction.user.username;
 
         // Check Process
         if (!voiceChannel) {
