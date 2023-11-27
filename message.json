@@ -1,0 +1,16 @@
+{
+    "error": {
+        "e001": "You must be in a voice channel to use this command.",
+        "e002": "Please enter a query to search a song.",
+        "e003": "There is no matching result with your query.",
+        "e004": "Something went wrong trying to play the song. Please try again.",
+        "e005": "Please enter the index on where to place the song.",
+        "e006": "Index provided is higher than the number of songs in queue.",
+        "e007": "Index can't be lower than 0.",
+        "e008": "Please enter a number.",
+        "e009": "There is no song being played.",
+        "e010": "Song is already playing.",
+        "e011": "There is no song in the queue.",
+        "e012": "Song is already paused."
+    }
+}
